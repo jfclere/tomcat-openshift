@@ -27,7 +27,6 @@ ADD conf /deployments/conf
 RUN chmod 777 /deployments/conf
 
 RUN mkdir -m 777 -p /deployments/webapps
-ADD demo-webapp/target/demo-1.0.war /deployments/webapps/ROOT.war
 
 WORKDIR /deployments
 
