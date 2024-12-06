@@ -1,4 +1,8 @@
 # tomcat-openshift
+
+> [!NOTE]
+> Clone this repository with `--recurse-submodules` flag.
+
 Example to use tomcat docker image in openshift  
 First look to https://github.com/apache/tomcat/tree/main/modules/stuffed
 For multi-plaform add :platform like jfclere/tomcat-demo:aarch64 to the docker URL.
